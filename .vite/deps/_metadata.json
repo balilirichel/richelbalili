@@ -1,0 +1,44 @@
+{
+  "hash": "0f1e6f76",
+  "configHash": "4106ee60",
+  "lockfileHash": "0e40e73a",
+  "browserHash": "3d9be156",
+  "optimized": {
+    "lucide-react": {
+      "src": "../../node_modules/lucide-react/dist/esm/lucide-react.mjs",
+      "file": "lucide-react.js",
+      "fileHash": "07ac7729",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "9c05ada8",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "dfe2728f",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "612f4b30",
+      "needsInterop": true
+    },
+    "scrollreveal": {
+      "src": "../../node_modules/scrollreveal/dist/scrollreveal.es.js",
+      "file": "scrollreveal.js",
+      "fileHash": "4fb0bee1",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "react-Cvh7Ylf6": {
+      "file": "react-Cvh7Ylf6.js",
+      "isDynamicEntry": false
+    }
+  }
+}
