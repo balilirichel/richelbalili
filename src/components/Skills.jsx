@@ -10,7 +10,15 @@ function Skills({ skills }) {
               {cat.items.map(item => (
                 <div className="skills__data" key={item.name}>
                   <div className="skills__names">
-                    <span className="skills__icon"><item.icon size={48} /></span>
+                    {/* Updated from <item.icon /> to an <img> tag */}
+                    <span className="skills__icon">
+                      <img 
+                        src={item.icon} 
+                        alt={`${item.name} logo`} 
+                        className="w-12 h-12 object-contain"
+                        style={{ width: '48px', height: '48px' }} // Matches your original size={48}
+                      />
+                    </span>
                     <span className="skills__name">{item.name}</span>
                   </div>
                 </div>
