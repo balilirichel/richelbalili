@@ -1,7 +1,11 @@
+import work1 from '../assets/work/work1.png';
+import work2 from '../assets/work/work2.png';
+import work3 from '../assets/work/work3.png';
+
 const works = [
-  { href: '#', imgSrc: 'assets/img/work1.jpg', alt: 'Work 1' },
-  { href: '#', imgSrc: 'assets/img/work2.jpg', alt: 'Work 2' },
-  { href: '#', imgSrc: 'assets/img/work3.jpg', alt: 'Work 3' },
+  { href: '#', imgSrc: work1, alt: 'Work 1' },
+  { href: '#', imgSrc: work2, alt: 'Work 2' },
+  { href: '#', imgSrc: work3, alt: 'Work 3' },
 ];
 
 export default works;
